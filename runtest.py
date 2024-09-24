@@ -13,6 +13,7 @@ def test_rank_columns():
 
     # Call the function
     result = rank_columns(df)
+    print(result)
 
     # Expected result DataFrame
     expected_data = {
